@@ -1,0 +1,29 @@
+{
+  "name": "com.cordova.webserver",
+  "displayName": "Webserver",
+  "version": "1.0.0",
+  "description": "Cordova RestAPI WebServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "nagabcube",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^14.0.1",
+    "cordova-plugin-webserver": "github:bykof/cordova-plugin-webserver",
+    "cordova-sqlite-storage": "^7.0.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-webserver": {},
+      "cordova-sqlite-storage": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
